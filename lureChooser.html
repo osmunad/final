@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en" class = "background">
 <head>
     <meta charset="UTF-8">
@@ -7,13 +8,45 @@
     <title>Document</title>
     <link rel="stylesheet" href="lureChooser.css">
 </head>
-<body class = color>
+<body class = "color">
         <h1 >The Ultimate Lure Chooser!</h1>
+        <form id = "choose">
         <h3> Choose your type of fishing</h3>
         <select name= "type">
             <option value="ice">Ice fishing</option>
-            <option value="reg">Spin fishing</option>
+            <option value="spin">Spin fishing</option>
             <option value="fly">Fly fishing</option>
         </select>
+
+        <h3> Choose your species of fish</h3>
+        <select name= "species">
+            <option value="trout">Trout</option>
+            <option value="bass">Bass</option>
+        </select>
+
+        <h3> Choose the season</h3>
+        <select name= "season">
+            <option value="spring">spring</option>
+            <option value="summer">summer</option>
+            <option value="fall">fall</option>
+            <option value="winter">winter</option>
+        </select>
+
+        <h3> What is the temperature(F)</h3>
+        <select name= "temp">
+            <option value="freezing">0-20</option>
+            <option value="cold">21-60</option>
+            <option value="moderate">61-80</option>
+            <option value="hot">81-100</option>
+        </select>
+
+
+
+        <br><input type="button" id = "go" value="Go!">
+<p id = "final"></p>
+        
+    </form>
+
+    <script src = "lureChooser.js"></script>
 </body>
 </html>
