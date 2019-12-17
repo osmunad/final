@@ -70,7 +70,7 @@ function ready(){
     if(fishing == "fly" && fish == "bass" && toy == "winter") {
         final_lure = "midge, nymphs, streamers";
     }
-    document.getElementById("final").textContent = final + " "+ final_lure;
+    document.getElementById("final").textContent = final_lure;
 
     }
 };
