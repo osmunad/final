@@ -70,6 +70,9 @@ function ready(){
     if(fishing == "fly" && fish == "bass" && toy == "winter") {
         final_lure = "midge, nymphs, streamers";
     }
+    // I learned how to take a variable from a drop down menu, then output
+    // an answer based on multiple variables. The code below takes the 
+    // final_lure, and insets it into a paragraph with an id of final_lure.
     document.getElementById("final").textContent = final_lure;
 
     }
